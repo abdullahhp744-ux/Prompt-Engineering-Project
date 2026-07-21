@@ -1,42 +1,57 @@
 # Prompt Engineering Project 1
 
+## Overview
+
+This project demonstrates the use of Zero-Shot and Few-Shot Prompt Engineering techniques to extract structured information from unstructured text and return the output in valid JSON format.
+
 ## Objective
 
-This project demonstrates Zero-Shot and Few-Shot Prompt Engineering techniques for extracting structured information from unstructured text.
+The objective is to design a prompt that:
 
-## Features
+- Extracts structured information from messy text.
+- Returns only valid JSON.
+- Uses delimiters for clear instruction separation.
+- Includes Few-Shot examples for improved accuracy.
 
-- Information Extraction
-- JSON Formatting
-- Few-Shot Prompting
-- Zero-Shot Prompting
-- Delimiter Usage
-- Deterministic Output
-
-## Technologies
+## Technologies Used
 
 - ChatGPT
 - Prompt Engineering
 - JSON
 
-## Example Input
+## Project Files
 
-```text
-Customer Name: Ali Khan
-Email: ali@gmail.com
-Phone: 03001234567
-```
+- `prompt.txt` – Main prompt
+- `sample_input.txt` – Sample unstructured text
+- `sample_output.json` – Generated JSON output
 
-## Example Output
+## Sample Output
 
 ```json
 {
-"name":"Ali Khan",
-"email":"ali@gmail.com",
-"phone":"03001234567"
+  "name": "Muhammad Abdullah",
+  "email": "abdullah.hp744@gmail.com",
+  "phone": "03114435331",
+  "city": "Lahore",
+  "products": [
+    "Laptop Stand",
+    "Wireless Mouse"
+  ],
+  "total": "6700"
 }
 ```
+
+## Skills Demonstrated
+
+- Prompt Engineering
+- Zero-Shot Prompting
+- Few-Shot Prompting
+- JSON Formatting
+- Information Extraction
+- AI Automation
 
 ## Author
 
 Muhammad Abdullah
+
+UET Lahore – BBIT Student
