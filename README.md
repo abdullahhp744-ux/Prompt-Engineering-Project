@@ -1,4 +1,4 @@
-# Prompt Engineering Project 1
+# Prompt Engineering Project
 
 ## Overview
 
